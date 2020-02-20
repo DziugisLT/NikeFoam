@@ -1,3 +1,9 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "TheBold";
   src: url(theboldfont.ttf);
@@ -20,8 +26,17 @@
   color: #dedede;
 }
 
-body {
+.upper {
   background: url(Images/bg1.png) no-repeat center center fixed;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.upperzoomx {
+  background: url(Images/bg2.png) no-repeat center center fixed;
   display: block;
   height: 100%;
   position: relative;
@@ -37,19 +52,50 @@ body {
   filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
 }
 
+.zoomx {
+  margin-top: 150px;
+  margin-left: 200px;
+  -webkit-filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(100px 50px 25px rgba(0, 0, 0, 0.45));
+}
+
 .landText {
   color: white;
   margin-top: 150px;
 }
 
-.landText > .heading {
+.landText .heading {
   font-family: TheBold;
   font-size: 95pt;
 }
-
-.landText > .postHeading {
+.landText .postHeading {
   font-size: 16pt;
   text-align: justify;
+}
+
+#about {
+  height: 50%;
+}
+
+.aboutHead {
+  font-family: TheBold;
+  font-size: 48pt;
+  background: -webkit-linear-gradient(#13F1FC, #0470DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.aboutText {
+  text-align: justify;
+  font-size: 14pt;
+}
+
+#footer {
+  height: 25%;
+  background-color: #ffffff;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
