@@ -48,6 +48,15 @@ body, html{
   background-size: cover;
 }
 
+.upperreact{
+  background: url(Images/bg5.png) no-repeat center center fixed;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
 .shoe{
   transform: rotate(20deg);
   margin-top: 250px;
@@ -58,6 +67,13 @@ body, html{
 
 .zoomx{
   margin-top: 150px;
+  margin-left: 200px;
+  -webkit-filter: drop-shadow(100px 50px 25px #{$shadowColor});
+  filter: drop-shadow(100px 50px 25px #{$shadowColor});
+}
+
+.react{
+  margin-top: 200px;
   margin-left: 200px;
   -webkit-filter: drop-shadow(100px 50px 25px #{$shadowColor});
   filter: drop-shadow(100px 50px 25px #{$shadowColor});
