@@ -57,6 +57,15 @@ body, html{
   background-size: cover;
 }
 
+.upperair{
+  background: url(Images/bg6.png) no-repeat center center fixed;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
 .shoe{
   transform: rotate(20deg);
   margin-top: 250px;
@@ -75,6 +84,14 @@ body, html{
 .react{
   margin-top: 200px;
   margin-left: 200px;
+  -webkit-filter: drop-shadow(100px 50px 25px #{$shadowColor});
+  filter: drop-shadow(100px 50px 25px #{$shadowColor});
+}
+
+.air{
+  transform: rotate(340deg);
+  margin-top: 150px;
+  margin-left: -100px;
   -webkit-filter: drop-shadow(100px 50px 25px #{$shadowColor});
   filter: drop-shadow(100px 50px 25px #{$shadowColor});
 }
@@ -101,16 +118,16 @@ body, html{
 }
 
 .aboutHead{
-  font-family: TheBold;
-  font-size: 48pt;
-  background: -webkit-linear-gradient(#13F1FC, #0470DC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  margin-top: 15px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18pt;
+  text-align: left;
+  margin-top: 50px;
 }
 
 .aboutText{
+  font-family: 'Roboto';
+  font-weight: 300;
   text-align: justify;
   font-size: 14pt;
 }
