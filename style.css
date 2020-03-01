@@ -126,9 +126,74 @@ body, html {
 }
 
 #footer {
-  height: 25%;
   background-color: #ffffff;
   text-align: center;
+  margin-top: 250px;
+}
+
+#footerzoomx {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 3400px;
+}
+
+#footerreact {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 2700px;
+}
+
+#footerair {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 1900px;
+}
+
+@media only screen and (max-width: 600px) {
+  .upper {
+    display: none;
+  }
+
+  .upperzoomx {
+    display: none;
+  }
+
+  .upperreact {
+    display: none;
+  }
+
+  .upperair {
+    display: none;
+  }
+
+  #about {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+
+  #footerzoomx {
+    display: none;
+  }
+
+  #footerreact {
+    display: none;
+  }
+
+  #footerair {
+    display: none;
+  }
+
+  h1 {
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px) {
+  h1 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
